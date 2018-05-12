@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921CF7B420A5993F006016BA /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 921CF7B320A5993F006016BA /* collection.json */; };
+		921CF7B620A59A2D006016BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921CF7B520A59A2D006016BA /* Constants.swift */; };
+		921CF7B820A59A49006016BA /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921CF7B720A59A49006016BA /* JsonHelper.swift */; };
+		929BC9BF20A55C40002F8ACB /* MVAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BC9BE20A55C40002F8ACB /* MVAppDelegate.swift */; };
+		929BC9C120A55C40002F8ACB /* MVLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BC9C020A55C40002F8ACB /* MVLoginViewController.swift */; };
+		929BC9C620A55C40002F8ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929BC9C520A55C40002F8ACB /* Assets.xcassets */; };
+		929BC9D420A55C40002F8ACB /* MiviTechTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BC9D320A55C40002F8ACB /* MiviTechTaskTests.swift */; };
+		929BC9DF20A55C40002F8ACB /* MiviTechTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BC9DE20A55C40002F8ACB /* MiviTechTaskUITests.swift */; };
+		929D08E220A5725B00EF6476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929D08E120A5725B00EF6476 /* Main.storyboard */; };
+		929D08E420A5726500EF6476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929D08E320A5726500EF6476 /* LaunchScreen.storyboard */; };
+		C56F08D720A6CC2500A1211B /* MVInformationScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F08D620A6CC2500A1211B /* MVInformationScreenController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929BC9D020A55C40002F8ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929BC9B320A55C40002F8ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929BC9BA20A55C40002F8ACB;
+			remoteInfo = MiviTechTask;
+		};
+		929BC9DB20A55C40002F8ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929BC9B320A55C40002F8ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929BC9BA20A55C40002F8ACB;
+			remoteInfo = MiviTechTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921CF7B320A5993F006016BA /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		921CF7B520A59A2D006016BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		921CF7B720A59A49006016BA /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
+		929BC9BB20A55C40002F8ACB /* MiviTechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiviTechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929BC9BE20A55C40002F8ACB /* MVAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVAppDelegate.swift; sourceTree = "<group>"; };
+		929BC9C020A55C40002F8ACB /* MVLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVLoginViewController.swift; sourceTree = "<group>"; };
+		929BC9C520A55C40002F8ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929BC9CA20A55C40002F8ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929BC9CF20A55C40002F8ACB /* MiviTechTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiviTechTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929BC9D320A55C40002F8ACB /* MiviTechTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiviTechTaskTests.swift; sourceTree = "<group>"; };
+		929BC9D520A55C40002F8ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929BC9DA20A55C40002F8ACB /* MiviTechTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiviTechTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929BC9DE20A55C40002F8ACB /* MiviTechTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiviTechTaskUITests.swift; sourceTree = "<group>"; };
+		929BC9E020A55C40002F8ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929D08E120A5725B00EF6476 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		929D08E320A5726500EF6476 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C56F08D620A6CC2500A1211B /* MVInformationScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVInformationScreenController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929BC9B820A55C40002F8ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9CC20A55C40002F8ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9D720A55C40002F8ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921CF7B120A598A2006016BA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				921CF7B520A59A2D006016BA /* Constants.swift */,
+				921CF7B720A59A49006016BA /* JsonHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		921CF7B220A598C3006016BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				929BC9CA20A55C40002F8ACB /* Info.plist */,
+				921CF7B320A5993F006016BA /* collection.json */,
+				929BC9C520A55C40002F8ACB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		929BC9B220A55C40002F8ACB = {
+			isa = PBXGroup;
+			children = (
+				929BC9BD20A55C40002F8ACB /* MiviTechTask */,
+				929BC9D220A55C40002F8ACB /* MiviTechTaskTests */,
+				929BC9DD20A55C40002F8ACB /* MiviTechTaskUITests */,
+				929BC9BC20A55C40002F8ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929BC9BC20A55C40002F8ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929BC9BB20A55C40002F8ACB /* MiviTechTask.app */,
+				929BC9CF20A55C40002F8ACB /* MiviTechTaskTests.xctest */,
+				929BC9DA20A55C40002F8ACB /* MiviTechTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929BC9BD20A55C40002F8ACB /* MiviTechTask */ = {
+			isa = PBXGroup;
+			children = (
+				929BC9BE20A55C40002F8ACB /* MVAppDelegate.swift */,
+				929BC9C020A55C40002F8ACB /* MVLoginViewController.swift */,
+				C56F08D620A6CC2500A1211B /* MVInformationScreenController.swift */,
+				C56F08D820A7534E00A1211B /* StoryBoard */,
+				921CF7B220A598C3006016BA /* Resources */,
+				921CF7B120A598A2006016BA /* Helper */,
+			);
+			path = MiviTechTask;
+			sourceTree = "<group>";
+		};
+		929BC9D220A55C40002F8ACB /* MiviTechTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				929BC9D320A55C40002F8ACB /* MiviTechTaskTests.swift */,
+				929BC9D520A55C40002F8ACB /* Info.plist */,
+			);
+			path = MiviTechTaskTests;
+			sourceTree = "<group>";
+		};
+		929BC9DD20A55C40002F8ACB /* MiviTechTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929BC9DE20A55C40002F8ACB /* MiviTechTaskUITests.swift */,
+				929BC9E020A55C40002F8ACB /* Info.plist */,
+			);
+			path = MiviTechTaskUITests;
+			sourceTree = "<group>";
+		};
+		C56F08D820A7534E00A1211B /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				929D08E320A5726500EF6476 /* LaunchScreen.storyboard */,
+				929D08E120A5725B00EF6476 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929BC9BA20A55C40002F8ACB /* MiviTechTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929BC9E320A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTask" */;
+			buildPhases = (
+				929BC9B720A55C40002F8ACB /* Sources */,
+				929BC9B820A55C40002F8ACB /* Frameworks */,
+				929BC9B920A55C40002F8ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiviTechTask;
+			productName = MiviTechTask;
+			productReference = 929BC9BB20A55C40002F8ACB /* MiviTechTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929BC9CE20A55C40002F8ACB /* MiviTechTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929BC9E620A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTaskTests" */;
+			buildPhases = (
+				929BC9CB20A55C40002F8ACB /* Sources */,
+				929BC9CC20A55C40002F8ACB /* Frameworks */,
+				929BC9CD20A55C40002F8ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929BC9D120A55C40002F8ACB /* PBXTargetDependency */,
+			);
+			name = MiviTechTaskTests;
+			productName = MiviTechTaskTests;
+			productReference = 929BC9CF20A55C40002F8ACB /* MiviTechTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		929BC9D920A55C40002F8ACB /* MiviTechTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929BC9E920A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTaskUITests" */;
+			buildPhases = (
+				929BC9D620A55C40002F8ACB /* Sources */,
+				929BC9D720A55C40002F8ACB /* Frameworks */,
+				929BC9D820A55C40002F8ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929BC9DC20A55C40002F8ACB /* PBXTargetDependency */,
+			);
+			name = MiviTechTaskUITests;
+			productName = MiviTechTaskUITests;
+			productReference = 929BC9DA20A55C40002F8ACB /* MiviTechTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929BC9B320A55C40002F8ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = SohailUrRahman;
+				TargetAttributes = {
+					929BC9BA20A55C40002F8ACB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					929BC9CE20A55C40002F8ACB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 929BC9BA20A55C40002F8ACB;
+					};
+					929BC9D920A55C40002F8ACB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 929BC9BA20A55C40002F8ACB;
+					};
+				};
+			};
+			buildConfigurationList = 929BC9B620A55C40002F8ACB /* Build configuration list for PBXProject "MiviTechTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929BC9B220A55C40002F8ACB;
+			productRefGroup = 929BC9BC20A55C40002F8ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929BC9BA20A55C40002F8ACB /* MiviTechTask */,
+				929BC9CE20A55C40002F8ACB /* MiviTechTaskTests */,
+				929BC9D920A55C40002F8ACB /* MiviTechTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929BC9B920A55C40002F8ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D08E420A5726500EF6476 /* LaunchScreen.storyboard in Resources */,
+				929BC9C620A55C40002F8ACB /* Assets.xcassets in Resources */,
+				929D08E220A5725B00EF6476 /* Main.storyboard in Resources */,
+				921CF7B420A5993F006016BA /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9CD20A55C40002F8ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9D820A55C40002F8ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929BC9B720A55C40002F8ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929BC9C120A55C40002F8ACB /* MVLoginViewController.swift in Sources */,
+				921CF7B820A59A49006016BA /* JsonHelper.swift in Sources */,
+				C56F08D720A6CC2500A1211B /* MVInformationScreenController.swift in Sources */,
+				929BC9BF20A55C40002F8ACB /* MVAppDelegate.swift in Sources */,
+				921CF7B620A59A2D006016BA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9CB20A55C40002F8ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929BC9D420A55C40002F8ACB /* MiviTechTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BC9D620A55C40002F8ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929BC9DF20A55C40002F8ACB /* MiviTechTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929BC9D120A55C40002F8ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929BC9BA20A55C40002F8ACB /* MiviTechTask */;
+			targetProxy = 929BC9D020A55C40002F8ACB /* PBXContainerItemProxy */;
+		};
+		929BC9DC20A55C40002F8ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929BC9BA20A55C40002F8ACB /* MiviTechTask */;
+			targetProxy = 929BC9DB20A55C40002F8ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		929BC9E120A55C40002F8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		929BC9E220A55C40002F8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929BC9E420A55C40002F8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929BC9E520A55C40002F8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		929BC9E720A55C40002F8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiviTechTask.app/MiviTechTask";
+			};
+			name = Debug;
+		};
+		929BC9E820A55C40002F8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiviTechTask.app/MiviTechTask";
+			};
+			name = Release;
+		};
+		929BC9EA20A55C40002F8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiviTechTask;
+			};
+			name = Debug;
+		};
+		929BC9EB20A55C40002F8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiviTechTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mivi.MiviTechTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiviTechTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929BC9B620A55C40002F8ACB /* Build configuration list for PBXProject "MiviTechTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929BC9E120A55C40002F8ACB /* Debug */,
+				929BC9E220A55C40002F8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929BC9E320A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929BC9E420A55C40002F8ACB /* Debug */,
+				929BC9E520A55C40002F8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929BC9E620A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929BC9E720A55C40002F8ACB /* Debug */,
+				929BC9E820A55C40002F8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929BC9E920A55C40002F8ACB /* Build configuration list for PBXNativeTarget "MiviTechTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929BC9EA20A55C40002F8ACB /* Debug */,
+				929BC9EB20A55C40002F8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929BC9B320A55C40002F8ACB /* Project object */;
+}
