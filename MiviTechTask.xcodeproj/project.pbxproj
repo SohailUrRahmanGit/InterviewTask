@@ -94,7 +94,6 @@
 		921CF7B220A598C3006016BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				929BC9CA20A55C40002F8ACB /* Info.plist */,
 				921CF7B320A5993F006016BA /* collection.json */,
 				929BC9C520A55C40002F8ACB /* Assets.xcassets */,
 			);
@@ -127,6 +126,7 @@
 				929BC9BE20A55C40002F8ACB /* MVAppDelegate.swift */,
 				929BC9C020A55C40002F8ACB /* MVLoginViewController.swift */,
 				C56F08D620A6CC2500A1211B /* MVInformationScreenController.swift */,
+				929BC9CA20A55C40002F8ACB /* Info.plist */,
 				C56F08D820A7534E00A1211B /* StoryBoard */,
 				921CF7B220A598C3006016BA /* Resources */,
 				921CF7B120A598A2006016BA /* Helper */,
