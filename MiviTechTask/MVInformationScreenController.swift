@@ -44,7 +44,7 @@ class MVInformationScreenController: UIViewController,UITableViewDelegate,UITabl
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: 50))
-        view.backgroundColor = UIColor(red: 41.0/255.0, green: 144.0/255.0, blue: 199.0/255.0, alpha: 0.5)
+        view.backgroundColor = UIColor(red: 41.0/255.0, green: 144.0/255.0, blue: 199.0/255.0, alpha: 1.0)
         let label = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: 50))
         label.font = UIFont.boldSystemFont(ofSize: 15)
         label.textColor = UIColor.white
